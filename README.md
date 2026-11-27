@@ -17,7 +17,7 @@ The project uses Python scripts to automate question generation, collect RAG res
 
 **The evaluation results, findings, and final project report are available in the project's documentation.**
 
-**SharePoint: [View Project Documentation](PASTE_SHAREPOINT_LINK_HERE)**
+**SharePoint: [View Project Documentation](https://unioulu-my.sharepoint.com/:f:/g/personal/itauriai20_student_oulu_fi/IgAd2hTtVi6GQ7TnRDAzw4pKAXfN7OLhliQpLAHuMrxY7do?e=rXP3fp) (Notice: link expires 31.5.2027 **
 
 # Instructions on How to Run the Code
 
