@@ -1,0 +1,56 @@
+
+{
+    "Questions": [
+        {
+            "id": 1,
+            "Question": "Attention is all you need paper, Who do the authors thank in the acknowledgements and for what?",
+            "Reference": "The authors are grateful to Nal Kalchbrenner and Stephan Gouws for their fruitful comments, corrections, and inspiration."
+        },
+        {
+            "id": 2,
+            "Question": "Who are the authors of the paper 'Attention Is All You Need', and what is the email address of the first-listed author?",
+            "Reference": "The authors of the paper are Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Łukasz Kaiser, and Illia Polosukhin. The email address of the first-listed author, Ashish Vaswani, is avaswani@google.com."
+        },
+        {
+            "id": 3,
+            "Question": "Where does Santa Claus come from?",
+            "Reference": "The documents do not contain information about where Santa Claus comes from."
+        },
+        {
+            "id": 4,
+            "Question": "What is the recommended baking temperature for sourdough bread?",
+            "Reference": "The documents do not contain information about baking sourdough bread."
+        },
+        {
+            "id": 5,
+            "Question": "In the paper 'Ethical Coordination of LLM Multi-Agent Systems', which language model powers the agents in the experiments?",
+            "Reference": "The agents are powered by Llama-3.3-70B-Instruct."
+        },
+        {
+            "id": 6,
+            "Question": "In the paper 'Ethical Coordination of LLM Multi-Agent Systems', how long does one call of the governance filter take on average?",
+            "Reference": "The filter takes about 0.78 microseconds per call on average."
+        },
+        {
+            "id": 7,
+            "Question": "Who wrote these two articles: A Warning About Model Welfare and Can AI Expand the Human Mind?, and how do their perspectives on artificial intelligence differ?",
+            "Reference": "Mustafa Suleyman wrote A Warning About Model Welfare, while Neil Savage wrote Can AI Expand the Human Mind?. Suleyman focuses on AI welfare risks, whereas Savage explores AI's potential to enhance human cognition."
+        },
+        {
+            "id": 8,
+            "Question": "What potential risks of developing increasingly advanced AI systems are discussed in Mustafa Suleyman's A Warning About Model Welfare and Neil Savage's Can AI Expand the Human Mind?",
+            "Reference": "Suleyman warns that attributing consciousness and personal interests to AI could make AI systems harder to control. Savage discusses how reliance on AI as a cognitive tool could influence and reshape human thinking."
+        },
+        {
+            "id": 9,
+            "Question": "why should earlier human-AI interaction research findings be reconsidered when studying modern AI systems?",
+            "Reference": "Modern AI systems have significantly different capabilities compared to earlier systems. Therefore, previous research findings may not accurately reflect interactions with today's more advanced AI systems and should be reevaluated."
+        },
+        {
+            "id": 10,
+            "Question": "What is the Bitter Lesson and how has it influenced the development of AI?",
+            "Reference": "he Bitter Lesson shows that general methods relying on increased computational power and data can outperform approaches based on predefined human knowledge. This has influenced the development of modern AI systems."
+        }
+    ]
+}
+

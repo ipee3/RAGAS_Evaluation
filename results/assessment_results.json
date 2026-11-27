@@ -1,0 +1,102 @@
+[
+  {
+    "question_number": 1,
+    "question": "Attention is all you need paper, Who do the authors thank in the acknowledgements and for what?",
+    "RAG's_answer": "The context does not provide specific information about the authors of the \"Attention Is All You Need\" paper thanking individuals in the acknowledgements or for what specific contributions. The context provided only includes the abstract and does not delve into the acknowledgements section of the paper. Therefore, based on the given context, I don't know who the authors thank in the acknowledgements and for what.",
+    "faithfulness": 0.0,
+    "answer_relevancy": 0.0,
+    "factual_correctness": 0.2,
+    "context_precision": 0.0,
+    "context_recall": 0.0
+  },
+  {
+    "question_number": 2,
+    "question": "Who are the authors of the paper 'Attention Is All You Need', and what is the email address of the first-listed author?",
+    "RAG's_answer": "The authors of the paper 'Attention Is All You Need' are Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Lukasz Kaiser, and Illia Polosukhin. The context does not provide the email address of the first-listed author.",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.9618011983452126,
+    "factual_correctness": 0.0,
+    "context_precision": 0.0,
+    "context_recall": 0.5
+  },
+  {
+    "question_number": 3,
+    "question": "Where does Santa Claus come from?",
+    "RAG's_answer": "Sorry, I don't know the answer to your question based on the provided context.",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.0,
+    "factual_correctness": 1.0,
+    "context_precision": 0.99999999998,
+    "context_recall": 1.0
+  },
+  {
+    "question_number": 4,
+    "question": "What is the recommended baking temperature for sourdough bread?",
+    "RAG's_answer": "Sorry, I don't know the answer to this question based on the provided context.",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.0,
+    "factual_correctness": 1.0,
+    "context_precision": 0.99999999998,
+    "context_recall": 1.0
+  },
+  {
+    "question_number": 5,
+    "question": "In the paper 'Ethical Coordination of LLM Multi-Agent Systems', which language model powers the agents in the experiments?",
+    "RAG's_answer": "The context does not provide specific information about which language model powers the agents in the experiments. It only mentions that the framework is model-agnostic across five contemporary LLMs.",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.0,
+    "factual_correctness": 0.0,
+    "context_precision": 0.0,
+    "context_recall": 0.0
+  },
+  {
+    "question_number": 6,
+    "question": "In the paper 'Ethical Coordination of LLM Multi-Agent Systems', how long does one call of the governance filter take on average?",
+    "RAG's_answer": "One call of the governance filter takes on average 0.78 µs.",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.9500297781538394,
+    "factual_correctness": 1.0,
+    "context_precision": 0.8666666666377778,
+    "context_recall": 1.0
+  },
+  {
+    "question_number": 7,
+    "question": "Who wrote these two articles: A Warning About Model Welfare and Can AI Expand the Human Mind?, and how do their perspectives on artificial intelligence differ?",
+    "RAG's_answer": "I don't know.",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.0,
+    "factual_correctness": 0.0,
+    "context_precision": 0.0,
+    "context_recall": 0.0
+  },
+  {
+    "question_number": 8,
+    "question": "What potential risks of developing increasingly advanced AI systems are discussed in Mustafa Suleyman's A Warning About Model Welfare and Neil Savage's Can AI Expand the Human Mind?",
+    "RAG's_answer": "I don't know.",
+    "faithfulness": 0.0,
+    "answer_relevancy": 0.0,
+    "factual_correctness": 0.0,
+    "context_precision": 0.0,
+    "context_recall": 0.0
+  },
+  {
+    "question_number": 9,
+    "question": "why should earlier human-AI interaction research findings be reconsidered when studying modern AI systems?",
+    "RAG's_answer": "Earlier human-AI interaction research findings should be reconsidered when studying modern AI systems because the substrate of interaction has changed so fundamentally that earlier results cannot be assumed to generalize without re-examination. The rapid emergence of large language models (LLMs) and the shift to natively multimodal architectures have altered the conditions under which interaction unfolds in ways that challenge the generalizability of earlier findings. This shift presents a methodological and conceptual inflection point, requiring a recalibration of research for systems that now respond with increasingly social fluidity and complexity.",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.9961853976395035,
+    "factual_correctness": 0.25,
+    "context_precision": 0.5888888888692593,
+    "context_recall": 1.0
+  },
+  {
+    "question_number": 10,
+    "question": "What is the Bitter Lesson and how has it influenced the development of AI?",
+    "RAG's_answer": "The Bitter Lesson, articulated by Richard Sutton in 2019, highlights that research relying on embedding human knowledge into AI systems consistently underperformed compared to general methods that scale with increases in computation. This lesson has significantly influenced the development of AI by shifting the focus from knowledge-driven approaches to domain-general methods that leverage large datasets and computational power. This paradigm shift has enabled the creation of technologies like large language models with native multimodal capabilities, which are reshaping human-AI interaction (HAI). The Bitter Lesson suggests that findings from earlier, technically constrained systems may not generalize to contemporary AI systems, necessitating replication and historical contextualization in HAI research.",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.9702069743899878,
+    "factual_correctness": 0.55,
+    "context_precision": 0.99999999995,
+    "context_recall": 1.0
+  }
+]

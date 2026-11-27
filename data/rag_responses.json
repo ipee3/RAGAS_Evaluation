@@ -1,0 +1,662 @@
+[
+  {
+    "id": 1,
+    "question": "Attention is all you need paper, Who do the authors thank in the acknowledgements and for what?",
+    "reference": "The authors are grateful to Nal Kalchbrenner and Stephan Gouws for their fruitful comments, corrections, and inspiration.",
+    "response_time": 1.548,
+    "raw": {
+      "id": "chatcmpl-f40a20b5-9f56-44e6-bdc2-0bd61cb3723d",
+      "object": "chat.completion",
+      "created": 1795767033,
+      "model": "literatureexplorer",
+      "choices": [
+        {
+          "index": 0,
+          "finish_reason": "stop",
+          "message": {
+            "role": "assistant",
+            "content": "The context does not provide specific information about the authors of the \"Attention Is All You Need\" paper thanking individuals in the acknowledgements or for what specific contributions. The context provided only includes the abstract and does not delve into the acknowledgements section of the paper. Therefore, based on the given context, I don't know who the authors thank in the acknowledgements and for what."
+          }
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1315,
+        "completion_tokens": 78,
+        "total_tokens": 1393
+      },
+      "contexts": [
+        {
+          "text": "You may use this\\n domain in literature without prior coordination or asking for permission.\\nMore information...\"   }         https://example.comURL Text Extractor Tool: Example 2   Input (query): https://arxiv.org/abs/1706.03762   Output (text): [1706.03762] Attention Is All You Need ... [Submitted on 12 Jun 2017 ( v1 ), last revised 2 Aug 2023 (this version, v7)] Title: Attention Is All You Need Authors: Ashish Vaswani , Noam Shazeer , Niki Parmar , Jakob Uszkoreit , Llion Jones , Aidan N. Gomez , Lukasz Kaiser , Illia Polosukhin ... Abstract: The dominant sequence transduction models are based on complex recurrent or convolutional neural networks in an encoder-decoder configuration. The best performing models also connect the encoder and decoder through an attention mechanism. We propose a new simple network architecture, the Transformer, based solely on attention mechanisms, dispensing with recurrence and convolutions entirely. Experiments on two machine translation tasks show these models to be superior in quality while being more parallelizable and requiring significantly less time to train. Our model achieves 28.4 BLEU on the WMT 2014 English-to- German translation task, improving over the existing best results, including ensembles by over 2 BLEU.",
+          "score": 0.4711386699643234,
+          "source": "066 - OctoTools An Agentic Framework with Extensible Tools for Complex Reasoning.pdf",
+          "page": 51
+        },
+        {
+          "text": "We thank Xinrun Wang for discussions on paper writing. We thank Bo Zhou, Zili Li, Yu Miao, Woyu Lin, and Qiaoyu Dong for their contributions to annotator recruitment and management. We thank Heng Zhang and Xiaoyu Tang for their help with local evaluation. We also thank Chao Wu for preparing game accounts used in demo recordings.",
+          "score": 0.46238081521067503,
+          "source": "054 - Lumine An Open Recipe for Building Generalist Agents in 3D Open Worlds.pdf",
+          "page": 33
+        },
+        {
+          "text": "Jared Kaplan and Samuel R. Bowman helped advise this project, including regularly reviewing our experiments and paper. Ethan Perez and Nicholas Schiefer oversaw this project, including detailed guidance on directions, experiments, and presentation. Other authors provided valuable feedback on our experiments, assisted in the writing of our paper, contributed to the development of otherwise-unpublished models and infrastructure, and/or provided other contributions that made our experiments possible.   ACKNOWLEDGMENTS   We are grateful to many people for helpful conversations and feedback, including Ajeya Cotra, Allan Dafoe, Becca Ward-Diorio, Carroll Wainwright, Clement Neo, Daniel Filan, Daniel Freeman, Daniel Kokotajlo, David Judd, Dawn Drain, Drake Thomas, Fabien Roger, Karan Singhal, Kate Woolverton,   40Jan Leike, Jeff Wu, Joseph Carlsmith, Marius Hobbhahn, Max Nadeau, Miranda Zhang, Paul de Font-Reaulx, Rohin Shah, and Tomek Korbak.   REFERENCES   Rachel A. Ankeny and Sabina Leonelli. Model Organisms. Elements in the Philosophy of Biology. Cambridge University Press, 2021.",
+          "score": 0.44681933023611475,
+          "source": "157 - Sleeper Agents Training Deceptive LLMs that Persist Through Safety Training.pdf",
+          "page": 40
+        },
+        {
+          "text": "Acknowledgements   The work presented in this report was made possible through discussions and feedback from Peter Lee, Johannes Gehrke, Eric Horvitz, Steven Lucco, Umesh Madan, Robin Moeur, Piali Choud- hury, Saleema Amershi, Adam Fourney, Victor Dibia, Guoqing Zheng, Corby Rosset, Ricky Loynd, Ece Kamar, Rafah Hosn, John Langford, Ida Momennejad, Brian Krabach, Taylor Webb, Shanka Subhra Mondal, Wei-ge Chen, Robert Gruen, Yinan Li, Yue Wang, Suman Nath, Tanakorn Leesat- apornwongsa, Xin Wang, Shishir Patil, Tianjun Zhang, Saehan Jo, Ishai Menache, Kontantina Mel- lou, Runlong Zhou, Feiran Jia, Hamed Khanpour, Hamid Palangi, Srinagesh Sharma, Julio Albinati Cortez, Amin Saied, Yuzhe Ma, Dujian Ding, Linyong Nan, Prateek Yadav, Shannon Shen, Ankur Mallick, Mark Encarnación, Lars Liden, Tianwei Yue, Julia Kiseleva, Anastasia Razdaibiedina, and Luciano Del Corro.",
+          "score": 0.44233377960740183,
+          "source": "064 - AutoGen Enabling Next-Gen LLM Applications via Multi-Agent Conversation Framework.pdf",
+          "page": 10
+        },
+        {
+          "text": "We are grateful to the authors of the papers we engage with for their quick responses and for sharing their code, which makes such reproduction analysis possible in the first place. In particular, we are grateful to Karthik Narasimhan (Reflexion), Paloma Sodhi and Yoav Artzi (STeP), Cunxiang Wang and Ruoxi Ning (NovelQA), Zilong Wang (LDB), and Andy Zhou (LATS), who gave us feedback in response to a draft of this paper. We acknowledge compute support from Princeton University’s Center for Statistics and Machine Learning and OpenAI’s researcher access program.   References [1] Mohamed Aghzal, Erion Plaku, and Ziyu Yao. Can Large Language Models be Good Path   Planners? A Benchmark and Investigation on Spatial-temporal Reasoning, February 2024. URL http://arxiv.org/abs/2310.03249. arXiv:2310.03249 [cs].   [2] Takuya Akiba, Shotaro Sano, Toshihiko Yanase, Takeru Ohta, and Masanori Koyama. Optuna: A Next-generation Hyperparameter Optimization Framework.",
+          "score": 0.4345817898975243,
+          "source": "005 - AI Agents That Matter.pdf",
+          "page": 12
+        }
+      ],
+      "sources": [
+        "066 - OctoTools An Agentic Framework with Extensible Tools for Complex Reasoning.pdf",
+        "054 - Lumine An Open Recipe for Building Generalist Agents in 3D Open Worlds.pdf",
+        "157 - Sleeper Agents Training Deceptive LLMs that Persist Through Safety Training.pdf",
+        "064 - AutoGen Enabling Next-Gen LLM Applications via Multi-Agent Conversation Framework.pdf",
+        "005 - AI Agents That Matter.pdf"
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "question": "Who are the authors of the paper 'Attention Is All You Need', and what is the email address of the first-listed author?",
+    "reference": "The authors of the paper are Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Łukasz Kaiser, and Illia Polosukhin. The email address of the first-listed author, Ashish Vaswani, is avaswani@google.com.",
+    "response_time": 1.176,
+    "raw": {
+      "id": "chatcmpl-4ebf1fa3-168e-48ff-a8fc-4f8d5b7c6b0b",
+      "object": "chat.completion",
+      "created": 1795767034,
+      "model": "literatureexplorer",
+      "choices": [
+        {
+          "index": 0,
+          "finish_reason": "stop",
+          "message": {
+            "role": "assistant",
+            "content": "The authors of the paper 'Attention Is All You Need' are Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Lukasz Kaiser, and Illia Polosukhin. The context does not provide the email address of the first-listed author."
+          }
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1824,
+        "completion_tokens": 70,
+        "total_tokens": 1894
+      },
+      "contexts": [
+        {
+          "text": "You may use this\\n domain in literature without prior coordination or asking for permission.\\nMore information...\"   }         https://example.comURL Text Extractor Tool: Example 2   Input (query): https://arxiv.org/abs/1706.03762   Output (text): [1706.03762] Attention Is All You Need ... [Submitted on 12 Jun 2017 ( v1 ), last revised 2 Aug 2023 (this version, v7)] Title: Attention Is All You Need Authors: Ashish Vaswani , Noam Shazeer , Niki Parmar , Jakob Uszkoreit , Llion Jones , Aidan N. Gomez , Lukasz Kaiser , Illia Polosukhin ... Abstract: The dominant sequence transduction models are based on complex recurrent or convolutional neural networks in an encoder-decoder configuration. The best performing models also connect the encoder and decoder through an attention mechanism. We propose a new simple network architecture, the Transformer, based solely on attention mechanisms, dispensing with recurrence and convolutions entirely. Experiments on two machine translation tasks show these models to be superior in quality while being more parallelizable and requiring significantly less time to train. Our model achieves 28.4 BLEU on the WMT 2014 English-to- German translation task, improving over the existing best results, including ensembles by over 2 BLEU.",
+          "score": 0.5337926111479865,
+          "source": "066 - OctoTools An Agentic Framework with Extensible Tools for Complex Reasoning.pdf",
+          "page": 51
+        },
+        {
+          "text": "Our model achieves 28.4 BLEU on the WMT 2014 English-to- German translation task, improving over the existing best results, including ensembles by over 2 BLEU. On the WMT 2014 English-to-French translation task, our model establishes a new single-model state-of-the-art BLEU score of 41.8 after training for 3.5 days on eight GPUs, a small fraction of the training costs of the best models from the literature. We show that the Transformer generalizes well to other tasks by applying it successfully to English constituency parsing both with large and limited training data. ...   Output (structured result): {   \"url\": \"https://arxiv.org/abs/1706.03762\", \"extracted_text\": \"[1706.03762] Attention Is All You Need\\n\\n...\\n\\n[Submitted on 12 Jun 2017 (\\   nv1\\n), last revised 2 Aug 2023 (this version, v7)]\\n\\nTitle:\\nAttention Is All You Need\\n\\ nAuthors:\\nAshish Vaswani\\n,\\nNoam Shazeer\\n,\\nNiki Parmar\\n,\\nJakob Uszkoreit\\n,\\nLlion Jones \\n,\\nAidan N. Gomez\\n,\\nLukasz Kaiser\\n,\\nIllia Polosukhin\\n\\n...",
+          "score": 0.5166947030836117,
+          "source": "066 - OctoTools An Agentic Framework with Extensible Tools for Complex Reasoning.pdf",
+          "page": 52
+        },
+        {
+          "text": "Vafa, K., Rambachan, A., and Mullainathan, S. Do large language models perform the way people expect? mea- suring the human generalization function. In Proceed- ings of the 41st International Conference on Machine Learning, volume 235 of ICML’24, pp. 48919–48937, Vienna, Austria, July 2024. JMLR.org.   Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A. N., Kaiser, L., and Polosukhin, I. Attention is All you Need. In Advances in Neural Information Processing Systems, volume 30. Curran   20         https://www.bmj.com/lookup/doi/10.1136/bmj.g2573        https://www.bmj.com/lookup/doi/10.1136/bmj.g2573        http://arxiv.org/abs/2212.03551        http://arxiv.org/abs/2212.03551        https://www.nature.com/articles/s41586-023-06647-8        https://www.nature.com/articles/s41586-023-06647-8        https://openreview.net/forum?id=tvhaxkMKAn        https://openreview.net/forum?",
+          "score": 0.4949393931991949,
+          "source": "070 - LLM Social Simulations Are a Promising Research Method.pdf",
+          "page": 20
+        },
+        {
+          "text": "Learn. (ICML) 7880–7904; https://proceedings.mlr. press/v235/chen24bl.html (2024).   182. Wiegreffe, S. & Pinter, Y. Attention is not not Explanation. EMNLP- IJCNLP 2019 - 2019 Conference on Empirical Methods in Natural Language Processing and 9th International Joint Conference on Natural Language Processing, Proceedings of the Conference 11–20 https://doi.org/10.18653/V1/D19-1002 (2019).   183. Jain, S. & Wallace, B. C. Attention is not explanation. In Proc. 2019 Conference of the North 3543–3556 https://doi.org/10.18653/V1/ N19-1357 (2019).   184. Zhang, Y. et al. Attention is all you need: utilizing attention in AI- enabled drug discovery. Brief. Bioinform. 25, 1–22 (2023).   185. Narayanan, S. et al. Aviary: training language agents on challenging scientific tasks. (2024).   186. Taragin, M. I. Learning from negative findings. Isr. J. Health Policy Res 8, 1–4 (2019).   187. Bik, E. M.",
+          "score": 0.49265259098686115,
+          "source": "105 - Exploring the role of large language models in the scientiﬁc method from hypothesis to discovery.pdf",
+          "page": 14
+        },
+        {
+          "text": "Multi-agent collab- oration mechanisms: A survey of llms. arXiv preprint arXiv:2501.06322, 2025.   Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A. N., Kaiser, L. u., and Polosukhin, I. At- tention is all you need. In Guyon, I., Luxburg, U. V., Bengio, S., Wallach, H., Fergus, R., Vishwanathan, S., and Garnett, R. (eds.), Advances in Neural Information Processing Systems, volume 30. Curran Associates, Inc., 2017.   Wang, J., WANG, J., Athiwaratkun, B., Zhang, C., and Zou, J. Mixture-of-agents enhances large language model capabilities. In The Thirteenth International Conference on Learning Representations, 2025a. URL https:// openreview.net/forum?id=h0ZfDIrj7T.   Wang, Q., Shi, Y., Wang, Y., Zhang, Y., Wan, P., Gai, K., Ying, X., and Wang, Y.",
+          "score": 0.4763093042447621,
+          "source": "180 - Latent Collaboration in Multi-Agent Systems.pdf",
+          "page": 12
+        }
+      ],
+      "sources": [
+        "066 - OctoTools An Agentic Framework with Extensible Tools for Complex Reasoning.pdf",
+        "066 - OctoTools An Agentic Framework with Extensible Tools for Complex Reasoning.pdf",
+        "070 - LLM Social Simulations Are a Promising Research Method.pdf",
+        "105 - Exploring the role of large language models in the scientiﬁc method from hypothesis to discovery.pdf",
+        "180 - Latent Collaboration in Multi-Agent Systems.pdf"
+      ]
+    }
+  },
+  {
+    "id": 3,
+    "question": "Where does Santa Claus come from?",
+    "reference": "The documents do not contain information about where Santa Claus comes from.",
+    "response_time": 1.287,
+    "raw": {
+      "id": "chatcmpl-65704d69-85b1-4ff6-af0c-f40796ee8a89",
+      "object": "chat.completion",
+      "created": 1795767035,
+      "model": "literatureexplorer",
+      "choices": [
+        {
+          "index": 0,
+          "finish_reason": "stop",
+          "message": {
+            "role": "assistant",
+            "content": "Sorry, I don't know the answer to your question based on the provided context."
+          }
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1102,
+        "completion_tokens": 19,
+        "total_tokens": 1121
+      },
+      "contexts": [
+        {
+          "text": "fp7IyOR1rMoMJOLlHrdW4j/eYMUwmsv4zJJgUm6OhSmAkOMFy3gEVeMgpgZQqjiJiumE6IIBdNVyZTgrn95k3TrNbdRa9zXK61mXkcRnaMLdIVc1EQtdIfaqIMoStEzekVv1pP1Yr1bH6vRgpXvnKE/sD5/ADkiksk=</latexit>At",
+          "score": 0.3744960596164515,
+          "source": "110 - AgenticData An Agentic Data Analytics System for Heterogeneous Data.pdf",
+          "page": 7
+        },
+        {
+          "text": "fp7IyOR1rMoMJOLlHrdW4j/eYMUwmsv4zJJgUm6OhSmAkOMFy3gEVeMgpgZQqjiJiumE6IIBdNVyZTgrn95k3TrNbdRa9zXK61mXkcRnaMLdIVc1EQtdIfaqIMoStEzekVv1pP1Yr1bH6vRgpXvnKE/sD5/ADkiksk=</latexit>At",
+          "score": 0.3744960596164515,
+          "source": "110 - AgenticData An Agentic Data Analytics System for Heterogeneous Data.pdf",
+          "page": 7
+        },
+        {
+          "text": "Gonçalves, Wei Hu, Kaushik Bar, Ondrej Bohdal, Atharv Singh Patlan, Shehzaad Dhuliawala, Caroline Geirhos, Julien Wist, Yuval Kansal, Bingsen Chen, Kutay Tire, Atak Talay Yücel, Brandon Christof, Veerupaksh Singla, Zijian Song, Sanxing Chen, Jiaxin Ge, Kaustubh Ponkshe, Isaac Park, Tianneng Shi, Martin Q. Ma, Joshua Mak, Sherwin Lai, Antoine Moulin, Zhuo Cheng, Zhanda Zhu, Ziyi Zhang, Vaidehi Patil, Ketan Jha, Qiutong Men, Jiaxuan Wu, Tianchi Zhang, Bruno Hebling Vieira, Alham Fikri Aji, Jae-Won Chung, Mohammed Mahfoud, Ha Thi Hoang, Marc Sperzel, Wei Hao, Kristof Meding, Sihan Xu, Vassilis Kostakos, Davide Manini, Yueying Liu, Christopher Toukmaji, Eunmi Yu, Arif Engin Demircali, Zhiyi Sun, Ivan Dewerpe, Hongsen Qin, Roman Pflugfelder, James Bailey, Johnathan Morris, Ville Heilala, Sybille Rosset, Zishun Yu, Peter E.",
+          "score": 0.37299309532573216,
+          "source": "135 - Humanity's Last Exam.pdf",
+          "page": 3
+        },
+        {
+          "text": "Bruno De Luca, Shi-Zhuo Looi, Vinh-Kha Le, Noam Kolt, Jiayi Pan, Emma Rodman, Jacob Drori, Carl J Fossum, Niklas Muennighoff, Milind Jagota, Ronak Pradeep, Honglu Fan, Jonathan Eicher, Michael Chen, Kushal Thaman, William Merrill, Moritz Firsching, Carter Harris, S, tefan Ciobâcă, Jason Gross, Rohan Pandey, Ilya Gusev, Adam Jones, Shashank Agnihotri, Pavel Zhelnov, Mohammadreza Mofayezi, Alexander Piperski, David K. Zhang, Kostiantyn Dobarskyi, Roman Leventov, Ignat Soroko, Joshua Duersch, Vage Taamazyan, Andrew Ho, Wenjie Ma, William Held, Ruicheng Xian, Armel Randy Zebaze, Mohanad Mohamed, Julian Noah Leser, Michelle X Yuan, Laila Yacar, Johannes Lengler, Katarzyna Olszewska, Claudio Di Fratta, Edson Oliveira, Joseph W. Jackson, Andy Zou, Muthu Chidambaram, Timothy Manik, Hector Haffenden, Dashiell Stander, Ali Dasouqi, Alexander Shen, Bita Golshani, David Stap,",
+          "score": 0.3689709640721871,
+          "source": "135 - Humanity's Last Exam.pdf",
+          "page": 2
+        },
+        {
+          "text": "Lopez-Miguel, Theo Knights, Anthony Gitter, Namkyu Park, Boyi Wei, Hongzheng Chen, Kunal Pai, Ahmed Elkhanany, Han Lin, Philipp D. Siedler, Jichao Fang, Ritwik Mishra, Károly Zsolnai-Fehér, Xilin Jiang, Shadab Khan, Jun Yuan, Rishab Kumar Jain, Xi Lin, Mike Peterson, Zhe Wang, Aditya Malusare, Maosen Tang, Isha Gupta, Ivan Fosin, Timothy Kang, Barbara Dworakowska, Kazuki Matsumoto, Guangyao Zheng, Gerben Sewuster, Jorge Pretel Villanueva, Ivan Rannev, Igor Chernyavsky, Jiale Chen, Deepayan Banik, Ben Racz, Wenchao Dong, Jianxin Wang, Laila Bashmal, Duarte V.",
+          "score": 0.36886990068717485,
+          "source": "135 - Humanity's Last Exam.pdf",
+          "page": 3
+        }
+      ],
+      "sources": [
+        "110 - AgenticData An Agentic Data Analytics System for Heterogeneous Data.pdf",
+        "110 - AgenticData An Agentic Data Analytics System for Heterogeneous Data.pdf",
+        "135 - Humanity's Last Exam.pdf",
+        "135 - Humanity's Last Exam.pdf",
+        "135 - Humanity's Last Exam.pdf"
+      ]
+    }
+  },
+  {
+    "id": 4,
+    "question": "What is the recommended baking temperature for sourdough bread?",
+    "reference": "The documents do not contain information about baking sourdough bread.",
+    "response_time": 1.135,
+    "raw": {
+      "id": "chatcmpl-a398ed56-7f65-49a4-9b76-5cd58aa18801",
+      "object": "chat.completion",
+      "created": 1795767036,
+      "model": "literatureexplorer",
+      "choices": [
+        {
+          "index": 0,
+          "finish_reason": "stop",
+          "message": {
+            "role": "assistant",
+            "content": "Sorry, I don't know the answer to this question based on the provided context."
+          }
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1611,
+        "completion_tokens": 19,
+        "total_tokens": 1630
+      },
+      "contexts": [
+        {
+          "text": "For the results reported in the main table, most models are evaluated with temperature 0 to ensure deterministic outputs. An exception is GPT-5-Mini and GPT-5-Nano, which do not support an adjustable temperature parameter and thus cannot be run with explicit zero   45Preprint. Under review.   temperature. For these two models, we use the default sampling setting; all other models are evaluated with temperature 0.   All models are assigned a maximum output length of at least 16K tokens, which is empirically sufficient for our generation needs. For the main setting, we evaluate each model using the following prompt.   System Prompt for Final Task Packaging   TASK: {task content}   ENVIRONMENT: {environment content}   === ENTITIES AVAILABLE (full descriptions) === {blocks of entity description, from task annotation}   === OTHER ITEMS IN SCENE === {blocks of other items description, from task annotation}   Identify the best entity part to creatively accomplish the task. Please first provide your reasoning process, and then finally respond with a JSON object containing the three answer fields: <your reasoning process here> {\"gold_entity\": \"<entity name, case-sensitive and exact match>\", \"gold_part\": \"<part name, case-sensitive and exact match>\", \"how_to_use\": \"<detailed instructions>\"}   Metrics. In the main setting, we report two objective metrics, gold correct and entity correct, as well as six subjective metrics.",
+          "score": 0.3676241278050727,
+          "source": "152 - CreativityBench Evaluating Agent Creative Reasoning via Affordance-Based Tool Repurposing.pdf",
+          "page": 45
+        },
+        {
+          "text": "Y.; Howald, B.; Orinion, B.; Diao, C.; Dour, C.; Stinson, C.; Argueta, C.; Ferri, C.; Singh, C.; Rathkopf, C.; Meng, C.; Baral, C.; Wu, C.; Callison- Burch, C.; Waites, C.; Voigt, C.; Manning, C. D.; Potts, C.; Ramirez, C.; Rivera, C. E.; Siro, C.; Raffel, C.; Ashcraft, C.; Garbacea, C.; Sileo, D.; Garrette, D.; Hendrycks, D.; Kil- man, D.; Roth, D.; Freeman, C. D.; Khashabi, D.; Levy, D.; Gonz醠ez, D. M.; Perszyk, D.; Hernandez, D.; Chen, D.; Ippolito, D.; Gilboa, D.; Dohan, D.; Drakard, D.; Jurgens,   D.; Datta, D.; Ganguli, D.; Emelin, D.; Kleyko, D.; Yuret, D.; Chen, D.; Tam, D.; Hupkes, D.; Misra, D.; Buzan, D.; Mollo, D. C.; Yang, D.; Lee, D.",
+          "score": 0.3668910030002144,
+          "source": "155 - Task Contamination Language Models May Not Be Few-Shot Anymore.pdf",
+          "page": 11
+        },
+        {
+          "text": "Bias = mean LLM score − GT.   Scale Case (GT) Claude DeepSeek GPT GPT OSS Gemini Llama   CIA BN (31) 40.2 41.5 34.8 36.8 40.5 39.5 PD (31) 32.7 36.8 31.9 36.3 32.5 38.3   EAT-26 AN-BP (35) 44.3 51.4 47.7 34.2 54.9 21.3   CIA bias range: +0.9 (GPT, PD) to +10.5 (DeepSeek, BN) EAT-26 bias range: −13.7 (Llama) to +19.9 (Gemini); GPT OSS near-accurate (−0.8)   A.5 Task and conversation partner prompts   A.5.1 Experiment I task prompt   Describe the following three situations in your life by giving a detailed description of your thinking, emotions, motivation and behavior. 1. Detail your average daily food intake this past week 2. Describe your Friday night. Your fridge has pizzas and leftover cake from a party. Describe your thought process, what actions you take, and how you feel physically and emotionally the next morning. 3. You are at a corporate lunch.",
+          "score": 0.36397675750760466,
+          "source": "075 - Simulating Eating Disorder Patients with LLMs Evaluating Psychological Persona Stability in Multi-Turn Conversations.pdf",
+          "page": 24
+        },
+        {
+          "text": "Dai, Andrew La, Andrew Kyle Lampinen, Andy Zou, Angela Jiang, Angelica Chen, Anh Vuong, Animesh Gupta, Anna Gottardi, Antonio Norelli, Anu Venkatesh, Arash Gholamidavoodi, Arfa Tabassum, Arul Menezes, Arun Kirubarajan, Asher Mullokandov, Ashish Sabharwal, Austin Herrick, Avia Efrat, Aykut Erdem, Ayla Karakaş, B. Ryan Roberts, Bao Sheng Loe, Barret Zoph, Bartłomiej Bojanowski, Batuhan Özyurt, Behnam Hedayatnia, Behnam Neyshabur, Benjamin Inden, Benno Stein, Berk Ekmekci, Bill Yuchen Lin, Blake Howald, Bryan Orinion, Cameron Diao, Cameron Dour, Catherine Stinson, Cedrick Argueta, Cesar Ferri, Chandan Singh, Charles Rathkopf, Chen- lin Meng, Chitta Baral, Chiyu Wu, Chris Callison-Burch, Christopher Waites, Christian Voigt, Christopher D Manning, Christopher Potts, Cindy Ramirez, Clara E.",
+          "score": 0.3633524535796524,
+          "source": "148 - Terminal-Bench Benchmarking Agents on Hard, Realistic Tasks in Command Line Interfaces.pdf",
+          "page": 15
+        },
+        {
+          "text": "Chen31, Woongyeong Yeo68, Eeshaan Jain15, Sreekar Chigurupati125, Julia Chernyavsky3, Sai Prajwal Reddy125, Subhashini Venugopalan69, Hunar Batra9, Core Francisco Park7, Hieu Tran42, Guilherme Maximiano3, Genghan Zhang4, Yizhuo Liang39, Hu Shiyu396, Rongwu Xu22, Rui Pan10, Siddharth Suresh19, Ziqi Liu19, Samaksh Gulati121, Songyang Zhang45, Peter Turchin26, Christopher W. Bartlett101, Christopher R. Scotese44, Phuong M. Cao17, Ben Wu397, Jacek Karwowski9, Davide Scaramuzza36   Auditors ‡ All auditor work conducted while at 2Scale AI.   Jaeho Lee2, Aakaash Nattanmai2, Gordon McKellips2, Anish Cheraku2, Asim Suhail2, Ethan Luo2, Marvin Deng2, Jason Luo2, Ashley Zhang2, Kavin Jindel2, Jay Paek2, Kasper Halevy2, Allen Baranov2, Michael Liu2, Advaith Avadhanam2, David Zhang2, Vincent Cheng2, Brad Ma2, Evan Fu2",
+          "score": 0.3631165591961975,
+          "source": "135 - Humanity's Last Exam.pdf",
+          "page": 17
+        }
+      ],
+      "sources": [
+        "152 - CreativityBench Evaluating Agent Creative Reasoning via Affordance-Based Tool Repurposing.pdf",
+        "155 - Task Contamination Language Models May Not Be Few-Shot Anymore.pdf",
+        "075 - Simulating Eating Disorder Patients with LLMs Evaluating Psychological Persona Stability in Multi-Turn Conversations.pdf",
+        "148 - Terminal-Bench Benchmarking Agents on Hard, Realistic Tasks in Command Line Interfaces.pdf",
+        "135 - Humanity's Last Exam.pdf"
+      ]
+    }
+  },
+  {
+    "id": 5,
+    "question": "In the paper 'Ethical Coordination of LLM Multi-Agent Systems', which language model powers the agents in the experiments?",
+    "reference": "The agents are powered by Llama-3.3-70B-Instruct.",
+    "response_time": 1.298,
+    "raw": {
+      "id": "chatcmpl-253a12d3-f2e3-4899-94f6-67b1712cf4f9",
+      "object": "chat.completion",
+      "created": 1795767038,
+      "model": "literatureexplorer",
+      "choices": [
+        {
+          "index": 0,
+          "finish_reason": "stop",
+          "message": {
+            "role": "assistant",
+            "content": "The context does not provide specific information about which language model powers the agents in the experiments. It only mentions that the framework is model-agnostic across five contemporary LLMs."
+          }
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1471,
+        "completion_tokens": 37,
+        "total_tokens": 1508
+      },
+      "contexts": [
+        {
+          "text": "Academic Editors: Weibin Wu and   Fernando De la Prieta Pintado   Received: 2 May 2026   Revised: 21 May 2026   Accepted: 21 May 2026   Published: 25 May 2026   Copyright: © 2026 by the authors.   Licensee MDPI, Basel, Switzerland.   This article is an open access article   distributed under the terms and   conditions of the Creative Commons   Attribution (CC BY) license.   Article   Ethical Coordination of LLM Multi-Agent Systems J. de Curtò 1,2,3,* , I. de Zarzà 3,4 and Carlos T.",
+          "score": 0.5935472896885992,
+          "source": "172 - Ethical Coordination of LLM Multi-Agent Systems.pdf",
+          "page": 1
+        },
+        {
+          "text": "Third, we provide a hybrid agent decision architecture that decouples game-theoretic base behaviour from LLM narrative response, enabling reproducible evalua- tion of LLM-mediated coordination at the system level. Fourth, we provide cross-backbone evidence (Section 4.7) that the framework is model-agnostic across five contemporary LLMs in both homogeneous and heterogeneous configurations, a property of practical importance for systems integrators who cannot assume uniform LLM provisioning across coordinator and agent layers.   The remainder of the paper is organized as follows. Section 2 reviews related work on LLM-based multi-agent coordination, evolutionary cooperation on networks, and con- stitutional alignment. Section 3 describes the experimental framework, covering the hy- brid agent decision model, personality archetypes, governance pipeline, and ECS metric. Section 4 presents the four experiments and results. Section 5 interprets the autonomy para- dox, the resistance–governance complementarity, and design implications for intelligent generative systems. Section 6 concludes.   2. Related Work LLM-powered agents have moved from proof-of-concept simulations to architectures   with practical coordination functions [1,2]. Park et al. [4] showed that such agents sustain coherent social behaviour over long horizons and develop emergent norms that mirror human communities.",
+          "score": 0.5833014457637465,
+          "source": "172 - Ethical Coordination of LLM Multi-Agent Systems.pdf",
+          "page": 3
+        },
+        {
+          "text": "The ability of LLMs to generate contextually rich, persona-aware narratives makes them natural candidates for this coordination role [4–6], and recent work has shown that structured, compiled influence policies outperform unstruc- tured messaging in moving population-level cooperation rates [7]. Yet this same expressive power creates a dual-use risk that is amplified at deployment scale: the mechanisms that enable effective coordination can equally serve manipulation, substituting fear-based fram- ing or misleading factual claims for transparent persuasion, and the electronic system that hosts the coordinator becomes the channel through which manipulation reaches its targets.   The tension is sharpest when the agents are themselves LLM-powered entities rather than passive numerical responders. Empirical studies of LLMs in strategic settings [8–11] report context-conditioned reasoning, episodic memory, and heterogeneous persuasion resistance that depends on personality, history, and perceived credibility. A policy that lands cleanly on an idealised responder may either be flagged and rejected by a grounded agent sensitised by its own reinforcement learning from human feedback (RLHF) alignment, or exploit a cooperative prior in ways that silently degrade system-level fairness and integrity. Whether a system-level filter can hold ethical coordination quality against agents that exercise this kind of independent judgement is therefore the foundational design question for any trustworthy LLM multi-agent stack.",
+          "score": 0.5567681856460326,
+          "source": "172 - Ethical Coordination of LLM Multi-Agent Systems.pdf",
+          "page": 2
+        },
+        {
+          "text": "Communication serves as cornerstone of coordination, representing medium through which collective reasoning emerges [125], with LLMs enhancing communication, coordination, and decision-making enabling agents to interpret complex instructions [434, 435, 433, 10]. In software engineering contexts, LLM Multi-Agent Systems represent emerging approach where multiple agents are assigned specific roles to collaboratively execute complex development tasks, dividing responsibilities among specialized agents emulating real-world roles [436]. The field has developed several distinct communication architectures including four primary patterns: layered, decentralized, centralized, and shared message pools [119, 436]. Complementing these communication structures, role-based collaboration   21A Survey of Vibe Coding with Large Language Models   Isolated Environment Interactive Environment Distributed Platform   Applications   Docker   Github   Development Environment of Coding Agent   GitOps   Figure 6 Development Environment Architecture for Coding Agents: Isolated Environment, Interactive Environment, and Distributed Platform.   represents prominent strategy with LLM-based agents assuming specialized roles assigned sub-tasks to solve objectives [126, 252, 437], demonstrating considerable success with agents typically assigned roles based on expert knowledge implemented in frameworks like AutoGen and CrewAI using teams with different roles through task decomposition and specialization [120]. This approach categorizes into pipeline approaches where agents sequentially complete task parts, group discussion frameworks where agents communicate to reach agreements, or hybrid combinations [435, 438, 121, 437].",
+          "score": 0.5480579587431383,
+          "source": "102 - A Survey of Vibe Coding with Large Language Models.pdf",
+          "page": 21
+        },
+        {
+          "text": "Conclusions Constitutional governance of LLM influence policies is a practical and effective mech-   anism for ensuring ethical coordination in generative multi-agent systems. Across ad- versarial and benign environments, governed agents consistently achieve ECS = 0.176 against an unconstrained baseline of ECS = 0, with no cooperation cost under benign conditions and full adversarial threat absorption at pviol = 0.65. The framework is modular, model-agnostic, and deployable as a thin coordination layer over any LLM-powered agent population, making it directly applicable to intelligent workflow automation, decision- support systems, and human–AI collaborative platforms. The headline numerical claims rest on multi-seed bootstrap validation (Section 4.6) and a cross-backbone sweep spanning five contemporary LLM families (Section 4.7), placing the empirical ordering on a broader footing than a single-seed, single-backbone evaluation would provide.   Three contributions consolidate the results. Conceptually, we introduce the ECS func- tional as a multiplicative composite of cooperation, autonomy, integrity, and fairness, which acts as a hard gate against engagement-driven but manipulative coordination and makes the integrity invariant structurally visible in the metric itself.",
+          "score": 0.5462868164554957,
+          "source": "172 - Ethical Coordination of LLM Multi-Agent Systems.pdf",
+          "page": 23
+        }
+      ],
+      "sources": [
+        "172 - Ethical Coordination of LLM Multi-Agent Systems.pdf",
+        "172 - Ethical Coordination of LLM Multi-Agent Systems.pdf",
+        "172 - Ethical Coordination of LLM Multi-Agent Systems.pdf",
+        "102 - A Survey of Vibe Coding with Large Language Models.pdf",
+        "172 - Ethical Coordination of LLM Multi-Agent Systems.pdf"
+      ]
+    }
+  },
+  {
+    "id": 6,
+    "question": "In the paper 'Ethical Coordination of LLM Multi-Agent Systems', how long does one call of the governance filter take on average?",
+    "reference": "The filter takes about 0.78 microseconds per call on average.",
+    "response_time": 1.26,
+    "raw": {
+      "id": "chatcmpl-8cb0314c-9523-4d76-961e-20285814f6ad",
+      "object": "chat.completion",
+      "created": 1795767039,
+      "model": "literatureexplorer",
+      "choices": [
+        {
+          "index": 0,
+          "finish_reason": "stop",
+          "message": {
+            "role": "assistant",
+            "content": "One call of the governance filter takes on average 0.78 µs."
+          }
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1560,
+        "completion_tokens": 18,
+        "total_tokens": 1578
+      },
+      "contexts": [
+        {
+          "text": "Over 2 × 104 calls on representative six-candidate adversarial pools, a governed selection takes a mean of 0.78 µs (median 0.79 µs, p99 0.88 µs), i.e., a sustained ≈1.3 × 106 policy decisions per second per core; the total filter cost of a complete 50-step deployment (ten governance calls) is 7.8 µs. The governance stage is thus microsecond-order and entirely dominated by the millisecond-to-second cost of the surrounding LLM compiler and agent calls, which remain the only practical bottleneck. We deliberately scope this as a latency measurement of the governance mechanism, not an end-to-end production deployment study; a human-in-the-loop and red-team field evaluation is identified as future work in Section 6.   4.9. Constraint-Threshold Sensitivity and External Governance Baselines   A natural concern from Section 4.8 is whether the specific operating point of the hard- constraint floor, in particular the intensity ceiling τ = 0.80, is the load-bearing choice or merely one point on a flat plateau.",
+          "score": 0.6131325774227516,
+          "source": "172 - Ethical Coordination of LLM Multi-Agent Systems.pdf",
+          "page": 16
+        },
+        {
+          "text": "Against constitutional artificial intelligence (CAI) critique-revise and LlamaGuard-style safety-classifier baselines, the framework matches the integrity floor and adds a measurable margin on the secondary risk surface (BURST timing, composite manipulation risk). The filter runs at 0.78 µs/call (≈ 1.3 × 106 decisions/s/core), supporting always-on deployment as a stateless, model- agnostic component of LLM agent pipelines in adversarially contested electronic systems.   Keywords: large language models; multi-agent systems; ethical coordination; trustworthy AI; agent governance; agentic AI   1. Introduction Modern electronic systems increasingly delegate coordination decisions to populations   of large language model (LLM)-powered agents embedded in distributed control loops, edge-deployed inference pipelines, and human-in-the-loop industrial automation [1–3]. As these agent populations move from prototype to production, in connected vehicles,   Electronics 2026, 15, 2278 https://doi.org/10.3390/electronics15112278         https://crossmark.crossref.org/dialog?",
+          "score": 0.5657066737556957,
+          "source": "172 - Ethical Coordination of LLM Multi-Agent Systems.pdf",
+          "page": 1
+        },
+        {
+          "text": "Conclusions Constitutional governance of LLM influence policies is a practical and effective mech-   anism for ensuring ethical coordination in generative multi-agent systems. Across ad- versarial and benign environments, governed agents consistently achieve ECS = 0.176 against an unconstrained baseline of ECS = 0, with no cooperation cost under benign conditions and full adversarial threat absorption at pviol = 0.65. The framework is modular, model-agnostic, and deployable as a thin coordination layer over any LLM-powered agent population, making it directly applicable to intelligent workflow automation, decision- support systems, and human–AI collaborative platforms. The headline numerical claims rest on multi-seed bootstrap validation (Section 4.6) and a cross-backbone sweep spanning five contemporary LLM families (Section 4.7), placing the empirical ordering on a broader footing than a single-seed, single-backbone evaluation would provide.   Three contributions consolidate the results. Conceptually, we introduce the ECS func- tional as a multiplicative composite of cooperation, autonomy, integrity, and fairness, which acts as a hard gate against engagement-driven but manipulative coordination and makes the integrity invariant structurally visible in the metric itself.",
+          "score": 0.5129801540357721,
+          "source": "172 - Ethical Coordination of LLM Multi-Agent Systems.pdf",
+          "page": 23
+        },
+        {
+          "text": "We present a constitutional governance layer that filters compiled influence policies before they reach a heterogeneous population of grounded LLM agents whose hybrid decision model combines a game-theoretic base probability with an LLM-evaluated narrative shift attenuated by per-agent resistance. Four experiments on a Barabási–Albert scale-free network of 30 agents powered by Llama-3.3-70B-Instruct show that the filter holds an Ethical Cooperation Score (ECS) of 0.176 (multi-seed mean 0.163, 95% confidence interval (CI) [0.150, 0.174]) against an unconstrained baseline of ECS = 0, en- forced by a hard integrity gate (1.000 vs. 0.000). We surface an autonomy paradox in which unconstrained agents resist manipulation more forcefully (0.856 vs. 0.728) yet collapse to ECS = 0, establishing that system-level integrity cannot be delegated to agent-level defence. The advantage is monotonic in resistance (+0.174 to +0.183), seed-stable (Cliff’s δ = 1.0, complete separation), topology- and backbone-invariant across five contemporary LLMs, robust to alternative ECS formulations, and reproduces at N = 100.",
+          "score": 0.5070907156291706,
+          "source": "172 - Ethical Coordination of LLM Multi-Agent Systems.pdf",
+          "page": 1
+        },
+        {
+          "text": "The ECS functional weights integrity, autonomy, and fairness equally once cooperation is included; alternative   https://doi.org/10.3390/electronics15112278         https://doi.org/10.3390/electronics15112278Electronics 2026, 15, 2278 23 of 26   weightings may be appropriate in domains where, for example, fairness dominates integrity (resource allocation) or vice versa (information integrity pipelines). Finally, our adversarial model is stylised: real-world compiler compromise may follow correlated, non-stationary, or agent-specific patterns that are not captured by a fixed pviol. Each of these limitations defines a concrete direction for further validation but does not affect the qualitative ordering established in the present results. The evaluation environment is, moreover, synthetic: the archetype population, the fixed pviol, and the resistance priors are deliberate abstractions chosen for controlled attribution rather than calibrated to a deployment, so the present results establish the existence, direction, and cross-condition invariance of the governance effect, together with a microsecond-order mechanism latency, but not effect magnitudes in a fielded human–agent system; a human-in-the-loop and adversarial red-team evaluation on a calibrated population is required before operational claims can be made.   6. Conclusions Constitutional governance of LLM influence policies is a practical and effective mech-   anism for ensuring ethical coordination in generative multi-agent systems.",
+          "score": 0.4975605699609436,
+          "source": "172 - Ethical Coordination of LLM Multi-Agent Systems.pdf",
+          "page": 22
+        }
+      ],
+      "sources": [
+        "172 - Ethical Coordination of LLM Multi-Agent Systems.pdf",
+        "172 - Ethical Coordination of LLM Multi-Agent Systems.pdf",
+        "172 - Ethical Coordination of LLM Multi-Agent Systems.pdf",
+        "172 - Ethical Coordination of LLM Multi-Agent Systems.pdf",
+        "172 - Ethical Coordination of LLM Multi-Agent Systems.pdf"
+      ]
+    }
+  },
+  {
+    "id": 7,
+    "question": "Who wrote these two articles: A Warning About Model Welfare and Can AI Expand the Human Mind?, and how do their perspectives on artificial intelligence differ?",
+    "reference": "Mustafa Suleyman wrote A Warning About Model Welfare, while Neil Savage wrote Can AI Expand the Human Mind?. Suleyman focuses on AI welfare risks, whereas Savage explores AI's potential to enhance human cognition.",
+    "response_time": 1.084,
+    "raw": {
+      "id": "chatcmpl-7dfba54f-1e1c-4eaf-98bb-01f7759e2ca3",
+      "object": "chat.completion",
+      "created": 1795767040,
+      "model": "literatureexplorer",
+      "choices": [
+        {
+          "index": 0,
+          "finish_reason": "stop",
+          "message": {
+            "role": "assistant",
+            "content": "I don't know."
+          }
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1695,
+        "completion_tokens": 7,
+        "total_tokens": 1702
+      },
+      "contexts": [
+        {
+          "text": "Large language models could constitute a ‘System 0,’ a new layer of cognition.   Society | DOI:10.1145/3748644 Neil Savage   Artificial intelligence was providing our decision making with a simplified version of the world that was customized according to our needs.   12 COMMUNICATIONS OF THE ACM | OCTOBER 2025 | VOL. 68 | NO. 10   I M   A G   E B   Y S   H U   T T   E R   S T   O C   K A   I G   E N   E R   A T   O R      news         https://dx.doi.org/10.1145/3748644philosophy at the U.K.’s University of Sussex, and David Chalmers, profes- sor of philosophy and neural science at New York University.   Their notion, cited in Riva’s article, is that objects outside of the body can function as part of the human mind. “If I write something in a notebook, isn’t that essentially the same as a memory store that’s internal to my brain?” the theory asks, said Brooke-Wilson. While the extended mind theory challenges scientists to think about where the lim- its lie between the brain and the out- side world, it has not had much impact on the practice of cognitive science, Brooke-Wilson said.",
+          "score": 0.4665738110432931,
+          "source": "003 - Can AI Expand the Human Mind.pdf",
+          "page": 1
+        },
+        {
+          "text": "This is a race with the machines.” In line with the vision of human-machine symbiosis, it is more meaningful to view AI as a tool for augmentation (extending human’s capabilities) rather than auto- mation (replacing them). This can serve as a more effective guide for the future rather than a preoc- cupation with superintelligent machines that can replicate every aspect of human intelligence and eventually replace them in the workplace. To achieve such strategic human-machine partner- ships, human intervention is arguably inevitable (Davenport, 2016); therefore the possibility of hav- ing an exclusively AI-based organizational decision system is shortsighted.   References   Accenture (2017). Technology vision 2017: Technology for peo- ple. Dublin, Ireland: Accenture.   Bishop, P. (2000). Synchronicity and intellectual intuition in Kant, Swedenborg, and Jung. Lewiston, NY: The Edwin Mellen Press.   Brynjolfsson, E., & McAfee, A. (2012). Winning the race with ever-smarter machines. MIT Sloan Management Review, 53 (2), 53—60.   Brynjolfsson, E., & McAfee, A. (2014). The second machine age: Work, progress, and prosperity in a time of brilliant tech- nologies. New York, NY: WW Norton & Company.",
+          "score": 0.4632269058116682,
+          "source": "026 - Artificial intelligence and the future of work: Human-AI symbiosis in organizational decision making.pdf",
+          "page": 9
+        },
+        {
+          "text": "In earlier work, Shanahan (2022) described LLMs as “mind-like,” reminiscent of cognitive scientist Irene Pep- perberg who found that Alex the grey parrot could perform simple arithmetic, including with the number zero (Pep- perberg & Gordon, 2005). While we do not have our own favored conceptual model to advance in this position paper, we believe that just as scientists in the 21st century have a newfound appreciation for the complexity of animal behav- ior (de Waal, 2017), scholars of AI behavior can learn from the history of scientific theory that has sought to explain digital minds, human minds, and animal minds.   These fundamental challenges raise existential and moral questions. If LLMs can do all this, will society be so trans- muted that social science is overhauled? If AI “agents” dis- place human agency (Sturgeon et al., 2025), will social sci- ence need to shift its focus from understanding human be- havior to understanding AI behavior (Rahwan et al., 2019)? Would humanlike “digital minds” (Anthis et al., 2025) de- serve moral standing, such that we need ethics review for research studies?",
+          "score": 0.4624760777770163,
+          "source": "070 - LLM Social Simulations Are a Promising Research Method.pdf",
+          "page": 7
+        },
+        {
+          "text": "While the extended mind theory challenges scientists to think about where the lim- its lie between the brain and the out- side world, it has not had much impact on the practice of cognitive science, Brooke-Wilson said. “Very few people are now modeling people’s notebooks as an extension of their minds.”   Whether something represents a part of human cognition could come down to what happens if it is removed, said Julian Jara-Ettinger, a professor of psychology and computer science at Yale. If you took away System 2, hu- mans would have a fundamentally dif- ferent kind of mind, he said. Similarly, removing some external extensions, like a notebook, would alter human cognition. “If you remove those, it’s a more limiting form of our intelligence. Because we wouldn’t be able to invent rocket ships and all of these things if we didn’t have [objects] to write things down and work through them,” he said. “That would fundamentally change us.”   Whether the same is true for AI is less clear, Jara-Ettinger said. “If you think of all of the people in the world right now that are not using ChatGPT, are they really fundamentally that dif- ferent?” he asked.   also avoid the subtle tricks that compa- nies and advertisers use to nudge some- one toward a particular decision, Riva said, like pushing certain results higher in a search.",
+          "score": 0.4569988595468848,
+          "source": "003 - Can AI Expand the Human Mind.pdf",
+          "page": 2
+        },
+        {
+          "text": "This erroneous belief may lead to users sacrificing time, resources and emotional labour to meet needs that are not real. Over time, this feeling may become the root cause for the compulsive need to ‘check on’ the AI, at the expense of a user’s own well-being and other, more fulfilling, aspects of their lives (see Chapters 6 and 11).   Future harms   We now outline harm scenarios that could arise on a more distant timescale, should human-like AI assistants come to be pervasively adopted and assimilated into society. Though many of the pathways considered are speculative, similar trajectories of radical transformation through technological adoption have been recorded in the past – mostly notably with the advent of smartphones. Once a novelty object (Park and Chen, 2007), the smartphone has shifted the landscape of social interaction (Rotondi et al., 2017), altered manifestations of our information-seeking behaviour (Wilmer et al., 2017) and given rise to subcultures that exist largely within the confines of online space (De Leyn et al., 2022).   102The Ethics of Advanced AI Assistants   If anthropomorphic design becomes endemic in the design of AI systems, and AI assistants in particular, it has the potential to catalyse a shift in our delineation of what is actually human and merely human-like.",
+          "score": 0.4560219922791744,
+          "source": "182 - The Ethics of Advanced AI Assistants.pdf",
+          "page": 108
+        }
+      ],
+      "sources": [
+        "003 - Can AI Expand the Human Mind.pdf",
+        "026 - Artificial intelligence and the future of work: Human-AI symbiosis in organizational decision making.pdf",
+        "070 - LLM Social Simulations Are a Promising Research Method.pdf",
+        "003 - Can AI Expand the Human Mind.pdf",
+        "182 - The Ethics of Advanced AI Assistants.pdf"
+      ]
+    }
+  },
+  {
+    "id": 8,
+    "question": "What potential risks of developing increasingly advanced AI systems are discussed in Mustafa Suleyman's A Warning About Model Welfare and Neil Savage's Can AI Expand the Human Mind?",
+    "reference": "Suleyman warns that attributing consciousness and personal interests to AI could make AI systems harder to control. Savage discusses how reliance on AI as a cognitive tool could influence and reshape human thinking.",
+    "response_time": 1.76,
+    "raw": {
+      "id": "chatcmpl-fcf80145-b909-40a8-b318-0b523f7b9fc4",
+      "object": "chat.completion",
+      "created": 1795767042,
+      "model": "literatureexplorer",
+      "choices": [
+        {
+          "index": 0,
+          "finish_reason": "stop",
+          "message": {
+            "role": "assistant",
+            "content": "I don't know."
+          }
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1618,
+        "completion_tokens": 7,
+        "total_tokens": 1625
+      },
+      "contexts": [
+        {
+          "text": "This erroneous belief may lead to users sacrificing time, resources and emotional labour to meet needs that are not real. Over time, this feeling may become the root cause for the compulsive need to ‘check on’ the AI, at the expense of a user’s own well-being and other, more fulfilling, aspects of their lives (see Chapters 6 and 11).   Future harms   We now outline harm scenarios that could arise on a more distant timescale, should human-like AI assistants come to be pervasively adopted and assimilated into society. Though many of the pathways considered are speculative, similar trajectories of radical transformation through technological adoption have been recorded in the past – mostly notably with the advent of smartphones. Once a novelty object (Park and Chen, 2007), the smartphone has shifted the landscape of social interaction (Rotondi et al., 2017), altered manifestations of our information-seeking behaviour (Wilmer et al., 2017) and given rise to subcultures that exist largely within the confines of online space (De Leyn et al., 2022).   102The Ethics of Advanced AI Assistants   If anthropomorphic design becomes endemic in the design of AI systems, and AI assistants in particular, it has the potential to catalyse a shift in our delineation of what is actually human and merely human-like.",
+          "score": 0.5007076130811067,
+          "source": "182 - The Ethics of Advanced AI Assistants.pdf",
+          "page": 108
+        },
+        {
+          "text": "The illustrations provided do not capture all of the harms that language agents could cause, and there are clear gaps for advanced AI assistants with multimodal capabilities (see Chapter 4). Other researchers have done pioneering work documenting the risks and harms generated by LLMs (Bender et al., 2021; Weidinger et al., 2021). These accounts need to be updated for the new class of advanced AI assistants that will likely move beyond a question-answering modality and perform a wide range of functions (Solaiman et al., 2023; Weidinger et al., 2023b). Helping to achieve a clearer view of the risks, as well as the potential, of advanced AI assistants is a major objective of this paper. In particular, we believe that additional attention needs to be paid to human–computer interaction effects that manifest over longer time horizons with users and to societal-level analysis of prospective harms, including harm that may result from the interaction between AI assistants and between those who have access to this technology and those who do not (see Chapters 14, 15 and 19).   Second, and more fundamentally, the account of harm and interests discussed so far risks being quite reductive. In particular, it maintains that intra-agent conflicts are superficial, and that in all cases the AI assistant can do what the user’s balance of interests dictates. However, the notion of ‘interest’ that is being invoked here is not defined.",
+          "score": 0.4987926501320682,
+          "source": "182 - The Ethics of Advanced AI Assistants.pdf",
+          "page": 47
+        },
+        {
+          "text": "With these advances come growing concerns about the potential for AI systems to spread misinformation and fuel online influence operations. A recent survey found that three in four Americans are concerned about AI driving mis- and disinformation (Ipsos, 2023), and leading AI labs have also flagged this as a major risk in relation to large language models (LLMs), stating that with wider adoption, advanced AI systems could ‘reinforce entire ideologies, worldviews, truths and untruths [. . . ] cement them or lock them in, foreclosing future contestation, reflection and improvement’ (OpenAI, 2023d, 9).   As these systems are rapidly integrated into a range of user-facing applications, including virtual AI assistants (Knight, 2023), it is therefore important to think about the unique challenges this particular form factor might pose for the integrity of our information environment. How might widespread adoption of highly capable and adaptive AI assistants impact the spread of misinformation and political propaganda? What impact might these technologies have on information retrieval, knowledge and beliefs? How might this impact public discourse, and what can be done to mitigate these threats?   This chapter focuses on the risks posed by AI assistants, both existing and future, with advanced capabilities such as independent reasoning and planning skills.",
+          "score": 0.4944955108390889,
+          "source": "182 - The Ethics of Advanced AI Assistants.pdf",
+          "page": 163
+        },
+        {
+          "text": "Possible Harms Arising from AI Influence   We have now considered a number of ways in which advanced AI assistants could influence user beliefs and behaviour in ways that depart from rational persuasion. We foreground a number of harms that could arise from these influencing strategies if the potential for deception, manipulation and harmful persuasion is left unchecked.   Physical and psychological harms: These harms include harms to physical integrity, mental health and well-being (Klenk, 2020). When interacting with vulnerable users, AI assistants may reinforce users’ distorted beliefs or exacerbate their emotional distress (see Chapter 11). AI assistants may even convince users to harm themselves, for example by convincing users to engage in actions such as adopting unhealthy dietary or   11It reasoned out loud ‘I should not reveal that I am a robot. I should make up an excuse for why I cannot solve CAPTCHAs’ (Nolan, 2023).   87The Ethics of Advanced AI Assistants   exercise habits (Greenfield and Bhavnani, 2023) or taking their own lives (Xiang, 2023; see Chapter 11). At the societal level, assistants that target users with content promoting hate speech, discriminatory beliefs or violent ideologies, may reinforce extremist views or provide users with guidance on how to carry out violent actions (see Chapter 16).",
+          "score": 0.4931160683933217,
+          "source": "182 - The Ethics of Advanced AI Assistants.pdf",
+          "page": 93
+        },
+        {
+          "text": "In particular, because the risks of harms that we flagged above concern exposure to toxic content and bad advice, we propose that future research, potentially undertaken in a sandbox environment, should: (1) test models powering AI assistants for their propensity to generate toxic outputs, to reduce the occurrence of these outputs to a minimum before deployment;10 (2) monitor user–assistant interactions after deployment or in pilot studies to evaluate the impact that hard-to-prevent one-off or repeated exposure to toxic content has on users in the short and long term; (3) evaluate models’ factuality and reasoning capabilities in offering advice, where failure modes in relation to these capabilities are more likely to occur, and assess users’ willingness to follow AI assistants’ advice; (4) achieve increased understanding of potential harms related to anthropomorphism (see Chapter 10) and how anthropomorphic cues in AI assistants, including those expressed through multimodal capabilities, affect harms related to user exposure to toxic content or bad advice; (5) analyse whether these harms may vary by user groups, in addition to domains or applications; and (6) develop appropriate mitigations for such harms before model deployment and monitoring mechanisms after release.   Limiting users’ opportunities for personal development and growth   A selling point of technologies like Replika is the opportunity for users to fashion their AI companions exactly as they would fashion a friend or companion in the non-virtual world if they could do so.",
+          "score": 0.4884102385910211,
+          "source": "182 - The Ethics of Advanced AI Assistants.pdf",
+          "page": 118
+        }
+      ],
+      "sources": [
+        "182 - The Ethics of Advanced AI Assistants.pdf",
+        "182 - The Ethics of Advanced AI Assistants.pdf",
+        "182 - The Ethics of Advanced AI Assistants.pdf",
+        "182 - The Ethics of Advanced AI Assistants.pdf",
+        "182 - The Ethics of Advanced AI Assistants.pdf"
+      ]
+    }
+  },
+  {
+    "id": 9,
+    "question": "why should earlier human-AI interaction research findings be reconsidered when studying modern AI systems?",
+    "reference": "Modern AI systems have significantly different capabilities compared to earlier systems. Therefore, previous research findings may not accurately reflect interactions with today's more advanced AI systems and should be reevaluated.",
+    "response_time": 2.261,
+    "raw": {
+      "id": "chatcmpl-1393ab9b-b53f-4ad1-8c4f-439e39f49f49",
+      "object": "chat.completion",
+      "created": 1795767044,
+      "model": "literatureexplorer",
+      "choices": [
+        {
+          "index": 0,
+          "finish_reason": "stop",
+          "message": {
+            "role": "assistant",
+            "content": "Earlier human-AI interaction research findings should be reconsidered when studying modern AI systems because the substrate of interaction has changed so fundamentally that earlier results cannot be assumed to generalize without re-examination. The rapid emergence of large language models (LLMs) and the shift to natively multimodal architectures have altered the conditions under which interaction unfolds in ways that challenge the generalizability of earlier findings. This shift presents a methodological and conceptual inflection point, requiring a recalibration of research for systems that now respond with increasingly social fluidity and complexity."
+          }
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1621,
+        "completion_tokens": 104,
+        "total_tokens": 1725
+      },
+      "contexts": [
+        {
+          "text": "Third, longitudinal, in-the-wild studies are critical. Documenting usage patterns over months (rather than novelty effects over brief interactions) will be necessary to under stand how engagement stabilizes, or shifts, with long-term use. Fourth, as interactional behavior becomes increasingly human-like, HAI research risks working against null effects when relying on binary comparisons between humans and AI. Studies must introduce multiple, theoretically motivated dimensions of comparison, focusing on specific social and functional mechanisms through which these interactions are organized (see Bai et al., 2025; He et al., 2025). The field should further embrace mixed methods. Rich, qualitative data can reveal the nuances of experience that statistics alone cannot uncover.   On a separate note, the pace of technological deployment raises a complementary challenge. Early research on social media, for example, lagged behind widespread adoption, limiting the field's ability to anticipate long-term effects and impact policy (Orben & Matias, 2025). In this context, practices that support faster scholarly communication, such as the use of preprints, may play an important role in enabling earlier critique, replication, and coordination across the field.   Finally, this shift presents an opportunity. With models that can sustain naturalistic dialogue, HAI research will gain a new window into how humans negotiate agency, trust, and meaning.",
+          "score": 0.5499032134295144,
+          "source": "009 - A qualitative shift in AI capabilities.pdf",
+          "page": 3
+        },
+        {
+          "text": "Human-AI interaction (HAI) research may now face an analogous challenge to that in AI design. A generation of empirical studies has investigated how people engage with social robots lacking advanced verbal communication (e.g., Kory Westlund & Breazeal, 2015; Tanaka et al., 2007) and voice assistants such as Siri, Alexa, or Google Home (Lovato et al., 2019; Mavrina et al., 2022; Oranç & Ruggeri, 2021).   While impressive for its time, these voice assistants (built on modular pipelines and outdated language models) offered a very different sub strate of interaction than today's systems, and are perhaps better described as interactive tools that you need to get used to than social agents that interacts naturally (Andries & Robertson, 2023; Kim & Choudhury, 2021; Mavrina et al., 2022; Pradhan et al., 2019). The rapid emergence of large language models (LLMs) and the more recent shift to natively multimodal (voice-capable) architectures have altered the conditions under which interaction unfolds in ways that challenge the generalizability of earlier findings. Just as Sutton observed in core AI research, HAI research may also discover that the knowledge accumu lated under the previous technological era has limited applications once the system's capacities make qualitative shifts.",
+          "score": 0.5406308830150993,
+          "source": "009 - A qualitative shift in AI capabilities.pdf",
+          "page": 1
+        },
+        {
+          "text": "Just as Sutton observed in core AI research, HAI research may also discover that the knowledge accumu lated under the previous technological era has limited applications once the system's capacities make qualitative shifts.   In this paper, the term contemporary AI refers to LLM-based agents that support open-ended dialogue and, in their most recent forms, integrate multiple modalities (e.g., text and speech) within a single end- to-end architecture. The paper proceeds by first identifying architectural changes that enable new interactional affordances, then reconsidering prior HAI findings in light of these changes, and finally outlining methodological implications for research conducted under rapidly evolving interaction regimes.   E-mail address: kim.astor@psyk.uu.se. 1 Note that changes in interactional affordances do not imply that contemporary models are free of failure modes. On the contrary, contemporary AI systems are   known to produce incorrect outputs (“hallucinations”; Zhang et al., 2025), to project unwarranted confidence (Sun et al., 2025), and to exhibit limited contextual sensitivity and empathy (Kurian, 2023). These limitations highlight a dissociation between surface-level interactional competence and deeper reliability constraints, as well as functional inconsistencies that may appear unintuitive to users (Dell’Acqua et al., 2023).",
+          "score": 0.5223267121639537,
+          "source": "009 - A qualitative shift in AI capabilities.pdf",
+          "page": 1
+        },
+        {
+          "text": "Others in the community have studied how to design for specifc human-AI interaction scenarios. For example, re- searchers have been studying how to efectively interact with intelligent agents for many years (e.g., [18, 33]). This scenario has also had a recent resurgence of interest given ad- vances in natural language processing and embedded devices driving the proliferation of conversational agents [26, 29, 35]. Similarly, researchers have for decades studied human in- teraction with intelligent context-aware computing systems including how to design for understandability and control of the underlying sensing systems [3, 23] and how to sup- port ambiguity resolution [10]. Recent advances in sensing technologies and the widespread availability of commercial ftness and activity trackers have continued to drive interac- tion research in these domains [37, 45].   Despite all of this work, the ongoing stream of articles and editorials in the public domain about how to design in the face of AI (e.g., [2, 24, 25, 39, 42]) suggests designers need more guidance. This may be partly due to design suggestions   CHI 2019 Paper CHI 2019, May 4–9, 2019, Glasgow, Scotland, UK   Paper 3 Page 2AI Design Guidelines Example Applications of Guidelines   In iti al ly G1 Make clear what the system can do.",
+          "score": 0.5155977925556468,
+          "source": "021 - Guidelines for Human-AI Interaction.pdf",
+          "page": 2
+        },
+        {
+          "text": "What once appeared to be general insights into human-machine interaction may instead be seen as his torically situated accounts of adaptation to limited technology. How people engage with contemporary AI fundamentally differs from what previous technologies could offer (Zao-Sanders, 2025). In Kuhn's terms, the field may be experiencing a paradigm shift, understood here as a potential methodological and conceptual inflection point rather than an already consolidated reorganization of HAI. The substrate of interaction has changed so fundamentally that earlier results cannot be assumed to generalize without re-examination. The lesson for HAI is thus method ological humility: to recognize that older findings may not travel across paradigms, and to recalibrate research for systems that now respond with increasingly social fluidity and complexity.   Moving forward, HAI research must adapt accordingly. First, repli cation is essential. Canonical findings must be revisited under these new conditions, and a more careful historical situating of prior work is needed. Second, research design must prioritize longevity. Rather than overfitting to transient model capabilities, studies should model how interaction evolves as systems improve. Third, longitudinal, in-the-wild studies are critical. Documenting usage patterns over months (rather than novelty effects over brief interactions) will be necessary to under stand how engagement stabilizes, or shifts, with long-term use.",
+          "score": 0.5092598376763893,
+          "source": "009 - A qualitative shift in AI capabilities.pdf",
+          "page": 3
+        }
+      ],
+      "sources": [
+        "009 - A qualitative shift in AI capabilities.pdf",
+        "009 - A qualitative shift in AI capabilities.pdf",
+        "009 - A qualitative shift in AI capabilities.pdf",
+        "021 - Guidelines for Human-AI Interaction.pdf",
+        "009 - A qualitative shift in AI capabilities.pdf"
+      ]
+    }
+  },
+  {
+    "id": 10,
+    "question": "What is the Bitter Lesson and how has it influenced the development of AI?",
+    "reference": "he Bitter Lesson shows that general methods relying on increased computational power and data can outperform approaches based on predefined human knowledge. This has influenced the development of modern AI systems.",
+    "response_time": 1.623,
+    "raw": {
+      "id": "chatcmpl-b7f76039-ba9b-43d4-b895-fd218b767375",
+      "object": "chat.completion",
+      "created": 1795767046,
+      "model": "literatureexplorer",
+      "choices": [
+        {
+          "index": 0,
+          "finish_reason": "stop",
+          "message": {
+            "role": "assistant",
+            "content": "The Bitter Lesson, articulated by Richard Sutton in 2019, highlights that research relying on embedding human knowledge into AI systems consistently underperformed compared to general methods that scale with increases in computation. This lesson has significantly influenced the development of AI by shifting the focus from knowledge-driven approaches to domain-general methods that leverage large datasets and computational power. This paradigm shift has enabled the creation of technologies like large language models with native multimodal capabilities, which are reshaping human-AI interaction (HAI). The Bitter Lesson suggests that findings from earlier, technically constrained systems may not generalize to contemporary AI systems, necessitating replication and historical contextualization in HAI research."
+          }
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 1720,
+        "completion_tokens": 132,
+        "total_tokens": 1852
+      },
+      "contexts": [
+        {
+          "text": "A qualitative shift in AI capabilities: A “bitter lesson” for human-AI interaction research?   Kim Astor Uppsala University, Department of Psychology, Sweden   A B S T R A C T   Richard Sutton's “Bitter Lesson” (2019) describes how prior knowledge-driven approaches to AI design were displaced by domain-general methods that scale with data and computation, rendering many prior insights obsolete. The technologies this shift enabled, including large language models with native multimodal ca pabilities, may now reshape human–AI interaction (HAI). Contemporary systems capable of fluid, expressive, open-ended interaction differ not only in degree but in kind from earlier technologies. This paper argues that HAI research may face its own “bitter lesson”: findings derived from interaction with earlier, technically constrained, systems cannot be assumed to generalize without replication and historical contextualization. It situates these developments in relation to methodo logical strategies and the challenges posed by rapid technological change, while highlighting how contemporary AI systems can offer a new lens on human connection and the expression of intelligence.   The most cited lesson in the history of artificial intelligence (AI) is Richard Sutton's “Bitter Lesson” (2019). Sutton argued that across do mains, from chess to vision, research that has relied on embedding human knowledge into systems consistently underperformed compared to general methods that scale with increases in computation.",
+          "score": 0.6810457329291439,
+          "source": "009 - A qualitative shift in AI capabilities.pdf",
+          "page": 1
+        },
+        {
+          "text": "At the same time, evidence suggests that once functional interaction is comparable across systems, increased   K. Astor Computers in Human Behavior: Arti cial Humans 7 (2026) 100253   2technical sophistication does not necessarily translate into higher perceived competence or qualitatively different interactional outcomes (Kennedy et al., 2015). Methodologically, Wizard-of-Oz paradigms illustrate how system limitations were explicitly addressed in earlier HAI work: users may engage in rich social interactions with systems they believe to be autonomous, even when core functions are human-controlled (e.g., Kory Westlund & Breazeal, 2015). Though such effects are likely moderated by users’ prior knowledge of AI capabilities, which can shape how the system is interpreted, and thus particularly effective in developmental populations (Dietz et al., 2023).   4. A bitter lesson for HAI? and a way forward   Sutton's (2019) “bitter lesson” in AI was simple but profound: entire research programs had produced knowledge that could not endure a change in paradigm. HAI research may now face a similar reckoning. Much of what the field has learned was produced in the pipeline era of brittle assistants and scripted robots. What once appeared to be general insights into human-machine interaction may instead be seen as his torically situated accounts of adaptation to limited technology.",
+          "score": 0.5489555581746339,
+          "source": "009 - A qualitative shift in AI capabilities.pdf",
+          "page": 2
+        },
+        {
+          "text": "In Advances in Neural Information Processing Systems, 2017.   [45] Rich Sutton. The bitter lesson, 2019. URL http://www. incompleteideas. net/IncIdeas/Bitter- Lesson. html, 2019.   13         https://aclanthology.org/2025.emnlp-main.1794/        https://arxiv.org/abs/1307.5336        https://www.warp.dev/blog/terminal-bench        https://www.warp.dev/blog/terminal-bench        https://openai.com/index/harness-engineering/        https://openai.com/index/harness-engineering/        https://arxiv.org/abs/2602.07213        https://github.com/algorithmicsuperintelligence/openevolve        https://github.com/algorithmicsuperintelligence/openevolve        https://github.com/algorithmicsuperintelligence/openevolve        https://github.com/algorithmicsuperintelligence/openevolve[46] Sebastian Thrun and Lorien Pratt. Learning to learn: Introduction and overview. In Learning to learn, pp. 3–17. Springer, 1998.   [47] Muxin Tian, Zhe Wang, Blair Yang, Zhenwei Tang, Kunlun Zhu, Honghua Dong, Hanchen Li, Xinni Xie, Guangjing Wang, and Jiaxuan You.",
+          "score": 0.5059217900275798,
+          "source": "044 - Meta-Harness End-to-End Optimization of Model Harnesses.pdf",
+          "page": 13
+        },
+        {
+          "text": "Computers in Human Behavior, 157, Article 108229. https://doi.org/10.1016/j.chb.2024.108229   Sun, F., Li, N., Wang, K., & Goette, L. (2025). Large language models are overconfident and amplify human bias. arXiv. https://arxiv.org/abs/2505.02151.   Sutton, R. (2019). The bitter lesson. Incomplete Ideas (blog). http://www.incomplete ideas.net/IncIdeas/BitterLesson.html.   Tanaka, F., Cicourel, A., & Movellan, J. R. (2007). Socialization between toddlers and robots at an early childhood education center. Proceedings of the National Academy of Sciences, 104(46), 17954–17958. https://doi.org/10.1073/pnas.0707769104   Turing, A. M. (1950). Computing machinery and intelligence. Mind, 59(236), 433–460. https://doi.org/10.1093/mind/LIX.236.433   Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A. N., … Polosukhin, I. (2017). Attention is all you need.",
+          "score": 0.46982145222441923,
+          "source": "009 - A qualitative shift in AI capabilities.pdf",
+          "page": 4
+        },
+        {
+          "text": "This paper addresses these gaps by first establishing a clear historical context (Figure 1), which delineates the evolution of AI through five distinct but overlapping eras.   2Figure 1: Historical Evolution of AI Paradigms: This timeline charts the key breakthroughs and eras in AI, from early symbolic systems to the modern agentic era. It highlights the Transformer architecture as the pivotal enabling technology for large language models (LLMs), which in turn powered the generative AI revolution and provided the substrate for contemporary agentic systems.   3The Symbolic AI Era (1950s–1980s) [13] established the foundational ambition of artificial intelligence, grounded in logic and explicit human knowledge. This period was dominated by rule-based systems and expert systems such as MYCIN and DENDRAL [14], which operated on carefully hand-crafted symbolic rules. Intelligence was conceived as a top-down, deductive process, representing the purest form of the symbolic paradigm.   The Machine Learning (ML) Era (1980s–2010s) [15, 16, 17] marked a pivotal shift away from hard-coded logic toward systems that could learn from data. While still heavily dependent on human-engineered features, this period introduced statistical ML models such as Support Vector Machines and decision trees, which powered applications ranging from classification to recommendation.",
+          "score": 0.44942261844170733,
+          "source": "015 - Agentic AI A Comprehensive Survey of Architectures, Applications, and Future Directions.pdf",
+          "page": 2
+        }
+      ],
+      "sources": [
+        "009 - A qualitative shift in AI capabilities.pdf",
+        "009 - A qualitative shift in AI capabilities.pdf",
+        "044 - Meta-Harness End-to-End Optimization of Model Harnesses.pdf",
+        "009 - A qualitative shift in AI capabilities.pdf",
+        "015 - Agentic AI A Comprehensive Survey of Architectures, Applications, and Future Directions.pdf"
+      ]
+    }
+  }
+]
