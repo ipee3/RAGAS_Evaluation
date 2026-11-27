@@ -47,7 +47,7 @@ Make sure the `data` directory contains the `test_question.json` file.
 
 **4. Connect to the University of Oulu network**
 
-Make sure you are connected to the University of Oulu network or have the VPN enabled before running the application.
+Make sure you are connected to the University of Oulu network or have the fortiCLient VPN enabled before running the application.
 
 **5. Run the application**
 
