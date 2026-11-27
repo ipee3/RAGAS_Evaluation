@@ -1,5 +1,3 @@
-# Oulu University – AI Engineering Assignment 2
-
 ## Project Description
 
 This project focuses on evaluating LiteratureExplorer, a Retrieval-Augmented Generation (RAG) system developed by XYZ Inc. as part of the AI Engineering course at the University of Oulu.
